@@ -8,6 +8,7 @@ id bton
 id guess
 id textView1
 id textView2
+id viewKonfetti
 id winText
 layout activity_main
 mipmap ic_launcher

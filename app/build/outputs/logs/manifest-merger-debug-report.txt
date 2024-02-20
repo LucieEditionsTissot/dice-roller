@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/digital/.gradle/caches/transforms-3/626fc59080fedd033ce96f612d3819a1/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/digital/.gradle/caches/transforms-3/dec4614628d7a9d2a5f1f5197247ace1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/digital/.gradle/caches/transforms-3/6843dd0d9ae138e903a6219db7755abb/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -33,6 +33,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/digital/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/digital/.gradle/caches/transforms-3/e1e427403df3867ef4c5f1dd522ac9f1/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/digital/.gradle/caches/transforms-3/c25faed1bfb6072ee48535331e221bcc/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/digital/.gradle/caches/transforms-3/f65fc4e33e9c6690c14e4fbae46679d5/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [nl.dionsegijn:konfetti:1.2.5] /Users/digital/.gradle/caches/transforms-3/f47c706c83ccd635f5d889cc5c414f20/transformed/konfetti-1.2.5/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/digital/.gradle/caches/transforms-3/2cb4b5a46196d7fcbae48de0cc76e1e0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/digital/.gradle/caches/transforms-3/6cdefc14d9ed75997d852f8e982b677f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/digital/.gradle/caches/transforms-3/f6258c9338dc0fe367c50f1f943dd550/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -46,18 +47,18 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/digital/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/digital/.gradle/caches/transforms-3/2ff880b6ba8c243be400385c9b8ed895/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/digital/.gradle/caches/transforms-3/f43ecf790fb7a45168215e8bb94c6661/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:5:5-24:19
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/digital/.gradle/caches/transforms-3/626fc59080fedd033ce96f612d3819a1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/digital/.gradle/caches/transforms-3/626fc59080fedd033ce96f612d3819a1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/digital/.gradle/caches/transforms-3/dec4614628d7a9d2a5f1f5197247ace1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -75,47 +76,47 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/digital/.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/digital/.gradle/caches/transforms-3/7d316aff347a934a4e76fb2f969ba283/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/digital/.gradle/caches/transforms-3/7d316aff347a934a4e76fb2f969ba283/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/digital/.gradle/caches/transforms-3/3c11ddf1f1ffbda5ee4d54edb6c4ee68/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:13:9-48
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.diceroller.MainActivity
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
-INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
+INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.11.0] /Users/digital/.gradle/caches/transforms-3/626fc59080fedd033ce96f612d3819a1/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] /Users/digital/.gradle/caches/transforms-3/626fc59080fedd033ce96f612d3819a1/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/digital/.gradle/caches/transforms-3/dec4614628d7a9d2a5f1f5197247ace1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
@@ -174,6 +175,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/digital/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/digital/.gradle/caches/transforms-3/c25faed1bfb6072ee48535331e221bcc/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/digital/.gradle/caches/transforms-3/f65fc4e33e9c6690c14e4fbae46679d5/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/digital/.gradle/caches/transforms-3/f65fc4e33e9c6690c14e4fbae46679d5/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [nl.dionsegijn:konfetti:1.2.5] /Users/digital/.gradle/caches/transforms-3/f47c706c83ccd635f5d889cc5c414f20/transformed/konfetti-1.2.5/AndroidManifest.xml:7:5-9:41
+MERGED from [nl.dionsegijn:konfetti:1.2.5] /Users/digital/.gradle/caches/transforms-3/f47c706c83ccd635f5d889cc5c414f20/transformed/konfetti-1.2.5/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/digital/.gradle/caches/transforms-3/2cb4b5a46196d7fcbae48de0cc76e1e0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/digital/.gradle/caches/transforms-3/2cb4b5a46196d7fcbae48de0cc76e1e0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/digital/.gradle/caches/transforms-3/6cdefc14d9ed75997d852f8e982b677f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -199,9 +202,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/digital/.gradle/caches/transforms-3/f43ecf790fb7a45168215e8bb94c6661/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/digital/.gradle/caches/transforms-3/f43ecf790fb7a45168215e8bb94c6661/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/digital/AndroidStudioProjects/DiceRoller/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/digital/StudioProjects/tp4-faites-vos-jeux-LucieEditionsTissot/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/digital/.gradle/caches/transforms-3/6cab4aafa2a113f80dab115e00217c6b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/digital/.gradle/caches/transforms-3/763f17d2b1191d574ecac92f1ea4c5fb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
