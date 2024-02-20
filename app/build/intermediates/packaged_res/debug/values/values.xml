@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Dice Roller</string>
+    <string name="devinez_le_r_sultat">Devinez le résultat</string>
+    <string name="jai_choisi">J\'ai choisi</string>
     <string name="roll">Roll</string>
     <style name="Base.Theme.DiceRoller" parent="Theme.Material3.DayNight.NoActionBar">
         

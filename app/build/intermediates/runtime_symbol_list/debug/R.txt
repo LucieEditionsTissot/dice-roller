@@ -3275,6 +3275,7 @@ int id graph_wrap 0x7f0800cb
 int id group_divider 0x7f0800cc
 int id grouping 0x7f0800cd
 int id groups 0x7f0800ce
+int id guess 0x7f0801f3
 int id header_title 0x7f0800cf
 int id hideable 0x7f0800d0
 int id home 0x7f0800d1
@@ -3801,6 +3802,7 @@ int string character_counter_content_description 0x7f0f0024
 int string character_counter_overflowed_content_description 0x7f0f0025
 int string character_counter_pattern 0x7f0f0026
 int string clear_text_end_icon_content_description 0x7f0f0027
+int string devinez_le_r_sultat 0x7f0f00a1
 int string error_a11y_label 0x7f0f0028
 int string error_icon_content_description 0x7f0f0029
 int string exposed_dropdown_menu_content_description 0x7f0f002a
@@ -3809,6 +3811,7 @@ int string fab_transformation_sheet_behavior 0x7f0f002c
 int string hide_bottom_view_on_scroll_behavior 0x7f0f002d
 int string icon_content_description 0x7f0f002e
 int string item_view_role_description 0x7f0f002f
+int string jai_choisi 0x7f0f00a2
 int string m3_exceed_max_badge_text_suffix 0x7f0f0030
 int string m3_ref_typeface_brand_medium 0x7f0f0031
 int string m3_ref_typeface_brand_regular 0x7f0f0032

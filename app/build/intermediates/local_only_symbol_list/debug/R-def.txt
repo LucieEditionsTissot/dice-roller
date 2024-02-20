@@ -5,6 +5,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id bton
+id guess
 id textView1
 id textView2
 id winText
@@ -12,6 +13,8 @@ layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string devinez_le_r_sultat
+string jai_choisi
 string roll
 style Base.Theme.DiceRoller
 style Theme.DiceRoller

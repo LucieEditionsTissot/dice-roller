@@ -19,6 +19,7 @@
         app:layout_constraintVertical_bias="0.499"
         tools:text="1" />
 
+
     <TextView
         android:id="@+id/winText"
         android:layout_width="wrap_content"
@@ -26,11 +27,38 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.089"
+        app:layout_constraintVertical_bias="0.166"
         tools:text="You win" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devinez le résultat"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/guess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        tools:text="Devinez le résultat" />
+
+    <Spinner
+        android:id="@+id/guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:autofillHints="@string/devinez_le_r_sultat"
+        android:hint="@string/devinez_le_r_sultat"
+        android:minWidth="24sp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,6 +75,7 @@
 
     <Button
         android:id="@+id/bton"
+        android:enabled="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
