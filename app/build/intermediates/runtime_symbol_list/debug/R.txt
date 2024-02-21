@@ -3793,6 +3793,7 @@ int string abc_toolbar_collapse_description 0x7f0f001a
 int string androidx_startup 0x7f0f001b
 int string app_name 0x7f0f001c
 int string appbar_scrolling_view_behavior 0x7f0f001d
+int string arr_ter_les_d_s 0x7f0f00a3
 int string bottom_sheet_behavior 0x7f0f001e
 int string bottomsheet_action_collapse 0x7f0f001f
 int string bottomsheet_action_expand 0x7f0f0020
@@ -3813,6 +3814,7 @@ int string hide_bottom_view_on_scroll_behavior 0x7f0f002e
 int string icon_content_description 0x7f0f002f
 int string item_view_role_description 0x7f0f0030
 int string jai_choisi 0x7f0f0031
+int string lancer_les_d_s 0x7f0f00a4
 int string m3_exceed_max_badge_text_suffix 0x7f0f0032
 int string m3_ref_typeface_brand_medium 0x7f0f0033
 int string m3_ref_typeface_brand_regular 0x7f0f0034
@@ -3926,6 +3928,7 @@ int string searchview_navigation_content_description 0x7f0f009f
 int string side_sheet_accessibility_pane_title 0x7f0f00a0
 int string side_sheet_behavior 0x7f0f00a1
 int string status_bar_notification_info_overflow 0x7f0f00a2
+int string win 0x7f0f00a5
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002

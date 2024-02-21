@@ -3,4 +3,7 @@
     <string name="roll">Roll</string>
     <string name="devinez_le_r_sultat">Devinez le résultat</string>
     <string name="jai_choisi">J\'ai choisi</string>
+    <string name="lancer_les_d_s">Lancer les dés</string>
+    <string name="arr_ter_les_d_s">Arrêter les dés</string>
+    <string name="win">Bravo tu as deviné</string>
 </resources>

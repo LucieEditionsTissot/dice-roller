@@ -16,25 +16,45 @@ class MainActivity : AppCompatActivity() {
     private lateinit var handler: Handler
     private lateinit var runnable: Runnable
     private var isRolling = false
+    private lateinit var rollButton: Button
+    private lateinit var numberSpinner: Spinner
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        handler = Handler(Looper.getMainLooper())
+
+        numberSpinner = findViewById(R.id.guess)
+        rollButton = findViewById(R.id.bton)
+        rollButton.isEnabled = false
+
         addGuess()
+
+        runnable = Runnable {
+            if (isRolling) {
+                rollDice(numberSpinner.selectedItem.toString())
+            }
+        }
+
+        rollButton.setOnClickListener {
+            if (isRolling) {
+                stopRolling()
+            } else {
+                startRolling()
+            }
+        }
 
         val resultTextView1: TextView = findViewById(R.id.textView1)
         val resultTextView2: TextView = findViewById(R.id.textView2)
         val stopRollingListener = View.OnClickListener {
             if (isRolling) {
-                handler.removeCallbacks(runnable)
-                isRolling = false
-                findViewById<Button>(R.id.bton).text = "Lancer les dés"
+                stopRolling()
             }
         }
         resultTextView1.setOnClickListener(stopRollingListener)
         resultTextView2.setOnClickListener(stopRollingListener)
     }
-
     private fun rollDice(guess: String) {
         if (!isRolling) return
         // Création des dés
@@ -57,8 +77,8 @@ class MainActivity : AppCompatActivity() {
 
         if (result.toString() == guess) {
             isRolling = false
-            winText.text = "Bravo tu as deviné"
-            rollButton.text = "Lancer les dés"
+            winText.text = getString(R.string.win)
+            rollButton.text = getString(R.string.lancer_les_d_s)
             celebrateWin()
         } else {
             winText.text = ""
@@ -70,55 +90,52 @@ class MainActivity : AppCompatActivity() {
     private fun celebrateWin() {
         val konfettiView = findViewById<KonfettiView>(R.id.viewKonfetti)
         konfettiView.build()
-            .addColors(android.graphics.Color.YELLOW, android.graphics.Color.GREEN, android.graphics.Color.MAGENTA)
+            .addColors(
+                android.graphics.Color.YELLOW,
+                android.graphics.Color.GREEN,
+                android.graphics.Color.MAGENTA
+            )
             .setDirection(0.0, 359.0)
             .setSpeed(1f, 5f)
             .setFadeOutEnabled(true)
             .setTimeToLive(1000L)
-            .addShapes(nl.dionsegijn.konfetti.models.Shape.Square, nl.dionsegijn.konfetti.models.Shape.Circle)
+            .addShapes(
+                nl.dionsegijn.konfetti.models.Shape.Square,
+                nl.dionsegijn.konfetti.models.Shape.Circle
+            )
             .addSizes(nl.dionsegijn.konfetti.models.Size(12))
             .setPosition(-50f, konfettiView.width + 50f, -50f, -50f)
             .streamFor(300, 2000L)
     }
 
     private fun addGuess() {
-        val numberSpinner: Spinner = findViewById(R.id.guess)
-        val numbersList = (2..12).toList()
+        val initialList = listOf("0")
+        val numbersList = initialList + (2..12).map { it.toString() }
+
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, numbersList)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         numberSpinner.adapter = adapter
 
         numberSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
-                val selectedNumber = parent.getItemAtPosition(position) as Int
-                val rollButton: Button = findViewById(R.id.bton)
-                rollButton.isEnabled = true
-                rollButton.setOnClickListener {
-                    if (isRolling) {
-                        handler.removeCallbacks(runnable)
-                        isRolling = false
-                        rollButton.text = "Lancer les dés"
-                    } else {
-                        rollDice(selectedNumber.toString())
-                        isRolling = true
-                        handler.post(runnable)
-                        rollButton.text = "Arrêter les dés"
-                    }
-
-                }
-                handler = Handler(Looper.getMainLooper())
-                runnable = Runnable {
-                    if (isRolling) {
-                        val selectedNumber = numberSpinner.selectedItem as Int
-                        rollDice(selectedNumber.toString())
-                    }
-                }
+                val selectedNumber = parent.getItemAtPosition(position).toString()
+                rollButton.isEnabled = selectedNumber != "0"
             }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-
-            }
+            override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
     }
-}
 
+    private fun startRolling() {
+        isRolling = true
+        handler.postDelayed(runnable, 100)
+        rollButton.text = getString(R.string.arr_ter_les_d_s)
+    }
+
+    private fun stopRolling() {
+        handler.removeCallbacks(runnable)
+        isRolling = false
+        rollButton.text = getString(R.string.lancer_les_d_s)
+        rollButton.isEnabled = true
+    }
+}

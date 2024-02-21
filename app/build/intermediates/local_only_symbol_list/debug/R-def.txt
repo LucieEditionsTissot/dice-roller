@@ -14,9 +14,12 @@ layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string arr_ter_les_d_s
 string devinez_le_r_sultat
 string jai_choisi
+string lancer_les_d_s
 string roll
+string win
 style Base.Theme.DiceRoller
 style Theme.DiceRoller
 xml backup_rules
